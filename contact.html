@@ -44,10 +44,12 @@
 					</div>
 					<div id="message" class="col-md-6">
 						<h2>Send a Message</h2>
-						<p><input class="form-control" type="text" name="email" placeholder="Your Email Address" /></p>
-						<p><input class="form-control" type="text" name="subject" placeholder="Subject" /></p>
-						<p><textarea class="form-control" rows="6" placeholder="lorem"></textarea></p>
-						<p><button type="submit" class="btn btn-dark btn-lg btn-block mb-2">Submit</button></p>
+						<form name="contact" method="POST" data-netlify="true">
+							<p><input class="form-control" type="text" name="email" placeholder="Your Email Address" /></p>
+							<p><input class="form-control" type="text" name="subject" placeholder="Subject" /></p>
+							<p><textarea class="form-control" rows="6" placeholder="lorem"></textarea></p>
+							<p><button type="submit" class="btn btn-dark btn-lg btn-block mb-2">Submit</button></p>
+						</form>
 					</div>
 				</div>
 			</div>
