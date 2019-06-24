@@ -1,11 +1,10 @@
 $(function(){
+	/* smoothscroll from top nav */
 	$(".scroll").click(function(event){
 		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 	});
-});
 
-
-$(function() { // document ready
+	/* sticky sidebar */
 	if ($('#sub-nav ul').length) { // make sure "#sticky" element exists
 		var el = $('#sub-nav ul');
 		var stickyTop = el.offset().top; // returns number
